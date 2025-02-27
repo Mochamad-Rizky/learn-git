@@ -1,0 +1,39 @@
+task1, task2, task2
+
+
+Branch:
+Master
+
+feature(01): slicing page about (A)
+featre(02): slicing page contact (B)
+
+
+B -> Master
+A -> Master
+
+
+
+Master = main branch digunakan untuk production
+Development = biasanya digunakan untuk developer atau pengembang
+Staging = ini biasanya digunakan untuk testing para QA
+
+
+Master -> hotFix: hot fix bug landing page
+
+Development -> feature a, feature b, feature 
+
+feature a, b, c -> Development -> Staging -> Master
+
+
+
+
+Master
+
+feature a, feature b, feature 
+
+feature a, b, c -> Master
+
+
+dev.rizky.com = dev
+staging.rizky.com = staging
+rizky.com = production
